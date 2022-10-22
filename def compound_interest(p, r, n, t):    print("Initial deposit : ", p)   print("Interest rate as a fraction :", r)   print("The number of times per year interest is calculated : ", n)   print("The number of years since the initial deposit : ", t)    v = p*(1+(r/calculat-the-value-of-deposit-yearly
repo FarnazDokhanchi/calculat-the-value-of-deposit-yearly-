@@ -1,0 +1,16 @@
+
+
+def compound_interest(p, r, n, t):
+
+  print("Initial deposit : ", p)
+  print("Interest rate as a fraction :", r)
+  print("The number of times per year interest is calculated : ", n)
+  print("The number of years since the initial deposit : ", t)
+
+  v = p*(1+(r/n))**(n*t)
+
+  print("value of deposit is : ", v)
+
+  
+
+ 
